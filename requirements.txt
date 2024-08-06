@@ -1,4 +1,4 @@
 flask
 sqlalchemy
-flask-sqlalcehmy
+flask-sqlalchemy
 gunicorn
