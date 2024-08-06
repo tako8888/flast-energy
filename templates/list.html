@@ -1,0 +1,10 @@
+<h1>This is a list of power plants</h1>
+
+<p></p>
+<ul>
+{% for plant in plants %}
+    <li>
+        <a href = "/plants/{{ plant.plant_code }}">
+        {{ plant.plant_name }}</li>
+{% endfor %}
+</ul>
